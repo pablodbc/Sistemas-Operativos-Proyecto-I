@@ -1,0 +1,6 @@
+#!/bin/bash
+git add *
+echo "¿Qué cambio(s) hiciste?"
+read str
+git commit -m "($str)"
+git push origin master

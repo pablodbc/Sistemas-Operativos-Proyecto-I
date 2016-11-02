@@ -1,0 +1,5 @@
+g++ solver_bruto.cpp -o solver
+python3 test_case_generator.py > p
+echo "Caso generado (Un archivo llamado p). Generando solucion para verificar.."
+./solver < p
+
