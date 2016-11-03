@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define MAXN 101
+#define MAXN 1001
 int A[MAXN][MAXN],B[MAXN][MAXN],x,y,r,p,N,T,V,b;
 bool isValid(int i, int j){return i>-1&&i<N&&j>-1&&j<N;}
 int main(){
